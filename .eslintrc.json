@@ -7,7 +7,14 @@
     "react/prop-types": 0,
     "arrow-body-style": 0,
     "space-before-function-paren": 0,
-    "array-bracket-spacing": "off"
+    "array-bracket-spacing": "off",
+    "react/destructuring-assignment": "never",
+    "jsx-a11y/no-noninteractive-element-interactions": [
+      "error",
+      {
+        "handlers": ""
+      }
+    ],
   },
   "env": {
     "browser": true
