@@ -20,7 +20,7 @@ class App extends Component {
         giphy('B0AnJ5suZRu9SI9HN1xuOGqqbrz4hWLN').search({
             q: query,
             rating: 'g',
-            limit:5
+            limit:10
             }, (err, res) => {
               this.setState({
                 gifs: res.data
